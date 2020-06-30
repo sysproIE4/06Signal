@@ -6,3 +6,10 @@
 
 ### コンパイル方法
 ```Makefile```を準備してあるので```make```コマンドでコンパイルできる．
+
+```
+$ make
+cc -Wall -std=c99 -o mysleep mysleep.c
+cc -Wall -std=c99 -o signalTest signalTest.c
+$
+```
