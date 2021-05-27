@@ -6,3 +6,6 @@ mysleep: mysleep.c
 signalTest: signalTest.c
 	cc -Wall -std=c99 -o signalTest signalTest.c
 
+clean:
+	rm -f mysleep signalTest
+
