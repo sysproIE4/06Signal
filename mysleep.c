@@ -20,6 +20,7 @@ int main() {
 }
 
 /* 実行例
+$ make                <---- コンパイルエラーや警告がないことを確認
 $ ./mysleep
 hello                 <---- hello が一秒に一度表示される．
 hello
