@@ -10,5 +10,4 @@
 *.vrb
 *.o
 a.out
-mysleep
-signalTest
+myslpmain

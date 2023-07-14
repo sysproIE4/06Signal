@@ -1,11 +1,8 @@
-all: mysleep signalTest
+all: mysleep
 
-mysleep: mysleep.c
-	cc -Wall -std=c99 -o mysleep mysleep.c
-
-signalTest: signalTest.c
-	cc -Wall -std=c99 -o signalTest signalTest.c
+mysleep: myslpmain.c mysleep.c mysleep.h
+	cc -Wall -std=c99 -o myslpmain myslpmain.c mysleep.c
 
 clean:
-	rm -f mysleep signalTest
+	rm -f myslpmain
 
